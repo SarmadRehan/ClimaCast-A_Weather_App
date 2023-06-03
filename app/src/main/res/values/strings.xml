@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClimaCast</string>
+    <string name="addLocationBtn">addLocationButton</string>
+</resources>
