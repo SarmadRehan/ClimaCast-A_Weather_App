@@ -5,8 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.sarmadrehan.climacast.models.Current
-import com.sarmadrehan.climacast.models.CurrentWeather
+import com.sarmadrehan.climacast.models.current.Current
 
 @Database(
     entities = [Current::class],

@@ -2,12 +2,10 @@ package com.sarmadrehan.climacast.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.sarmadrehan.climacast.models.Current
-import com.sarmadrehan.climacast.models.CurrentWeather
+import com.sarmadrehan.climacast.models.current.Current
 
 //DAO-DataAccessObject
 @Dao

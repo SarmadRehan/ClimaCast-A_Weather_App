@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.sarmadrehan.climacast.R
-import com.sarmadrehan.climacast.models.CurrentWeather
+import com.sarmadrehan.climacast.models.current.CurrentWeather
 
 class WeatherAdapter : RecyclerView.Adapter<WeatherAdapter.WeatherViewHolder>() {
 

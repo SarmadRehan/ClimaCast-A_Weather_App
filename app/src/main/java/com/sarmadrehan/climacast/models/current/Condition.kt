@@ -1,4 +1,4 @@
-package com.sarmadrehan.climacast.models
+package com.sarmadrehan.climacast.models.current
 
 data class Condition(
     val code: Int,

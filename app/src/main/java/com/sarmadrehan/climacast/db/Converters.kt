@@ -1,8 +1,7 @@
 package com.sarmadrehan.climacast.db
 
 import androidx.room.TypeConverter
-import com.sarmadrehan.climacast.models.Condition
-import com.sarmadrehan.climacast.models.Current
+import com.sarmadrehan.climacast.models.current.Condition
 
 class Converters {
 
@@ -12,7 +11,7 @@ class Converters {
     }
 
     @TypeConverter
-    fun toCondition(text: String): Condition{
+    fun toCondition(text: String): Condition {
         return Condition(0,text,text)
     }
 

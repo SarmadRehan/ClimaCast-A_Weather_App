@@ -1,4 +1,4 @@
-package com.sarmadrehan.climacast.models
+package com.sarmadrehan.climacast.models.forecast
 
 data class Location(
     val country: String,
